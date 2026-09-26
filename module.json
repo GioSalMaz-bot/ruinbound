@@ -1,0 +1,30 @@
+{
+  "id": "ruinbound",
+  "title": "Ruinbound",
+  "description": "An original infernal martial class and Ruin Architect subclass for D&D 5e 6.0.x.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Ruinbound Community"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.5",
+          "verified": "6.0.5"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/ruinbound.mjs"
+  ]
+}
